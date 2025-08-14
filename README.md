@@ -1,6 +1,6 @@
 Seed the db:
 ```bash
-$ php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
 ```
 
 Login as the `test@example.com` user
