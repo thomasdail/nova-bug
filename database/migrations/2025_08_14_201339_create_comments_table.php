@@ -15,6 +15,7 @@ return new class extends Migration {
             $table->id();
             $table->timestamps();
             $table->foreignIdFor(Post::class);
+            $table->text("content");
         });
     }
 
